@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+    background-color: #d5a1ff;
+    width: 100%;
+    height: auto;
+}
+
+.formcontainer{
+    background-color: #f6c02c;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+
+.loginform{
+
+    background-color: #1ce4bf;
+    width: 20%;
+    height: auto;
+    display: flex;
+    padding: 10px 20px;
+}
+form{
+    background-color:#fff;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+    
+}
+.from-input input{
+    padding-left: 2rem;
+
+}
+.form-input button{
+    width: 100%;
+    align-items: center;
+    margin: 3rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.8rem 0;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 60px;
+    
+}
